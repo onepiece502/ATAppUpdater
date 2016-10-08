@@ -45,10 +45,15 @@
 {
     self = [super init];
     if (self) {
-        self.alertTitle = @"New Version";
-        self.alertMessage = @"Version %@ is available on the AppStore.";
-        self.alertUpdateButtonTitle = @"Update";
-        self.alertCancelButtonTitle = @"Not Now";
+//         self.alertTitle = @"New Version";
+//         self.alertMessage = @"Version %@ is available on the AppStore.";
+//         self.alertUpdateButtonTitle = @"Update";
+//         self.alertCancelButtonTitle = @"Not Now";
+        self.alertTitle = @"新版本更新";
+        self.alertMessage = @"版本 %@ 可更新哦.";
+        self.alertUpdateButtonTitle = @"更新";
+        self.alertCancelButtonTitle = @"下次更新";
+//      https://github.com/onepiece502/ATAppUpdater.git
     }
     return self;
 }
